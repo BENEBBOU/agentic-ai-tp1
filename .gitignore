@@ -1,0 +1,18 @@
+# Environnements et caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# Secrets
+.env
+# Journaux
+*.log
+
+# Données téléchargées automatiquement et modèles entraînés
+data/
+*.pt
+*.pth
+graphe_operations*
+# Notebook de cours original (non redistribué)
+Activit*pratique*Pytorch*.ipynb
